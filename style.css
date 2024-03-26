@@ -1,0 +1,269 @@
+/*---/------ base styling-------/---*/
+body {
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+}
+
+/*---/------ base styling-------/---*/
+/*---/------ navbar-------/---*/
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar .container {
+    background: #273F2B;
+    color: #FFFFFF;
+    width: 1280px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.navbar ul a {
+    background: #273F2B;
+    color: #FFFFFF;
+}
+
+
+
+
+/*---/------ navbar-------/---*/
+
+/*---/------ hero-------/---*/
+.hero {
+    background: #273F2B;
+    color: #FFFFFF;
+    position: relative;
+}
+
+
+.hero .intro h2 {
+    font-weight: 700;
+    font-size: 3.418125rem;
+    line-height: 72px;
+    /* width: 731.88px; */
+    width: 20ch;
+    text-transform: uppercase;
+}
+
+.hero .intro p {
+    font-size: 1.0725rem;
+    line-height: 28px;
+    font-weight: 500;
+    width: 747.53px;
+}
+
+.hero .image {
+    height: 64px;
+}
+
+.hero .button-container {
+    font-size: 0.96125rem;
+    color: #273F2B;
+}
+
+.hero .button-container button {
+    color: #273F2B;
+}
+
+.hero .button-container button:nth-child(1) {
+    width: 175.41px;
+    height: 56px;
+    padding: 16px 23.8px 16px 24px;
+    gap: 0px;
+    border-radius: 28px;
+    opacity: 0px;
+    background: #78EB54;
+    border: none;
+}
+
+.hero .button-container button:nth-child(2) {
+    width: 211.22px;
+    height: 56px;
+    padding: 16px 23.8px 16px 24px;
+    border-radius: 28px;
+    background: #FFFFFF;
+    border: none;
+
+}
+
+.hero .rating-container {
+    color: #FFFFFF;
+
+}
+
+.hero .text h5 {
+    font-size: 0.945625rem;
+    font-weight: 700;
+}
+
+.hero .container .row:nth-child(2) {
+    background-color: rebeccapurple;
+}
+
+/* .hero .image:nth-child(1){
+    background-color: rebeccapurple;
+    width: 200px;
+} */
+/*---/------ hero-------/---*/
+
+/*---/------ below-hero-------/---*/
+.below-hero {
+    padding-bottom: 80px;
+    padding-top: 60px !important;
+}
+/*---/------ below-hero-------/---*/
+
+/*---/------features-------/---*/
+/* .features {
+    background: #F2F5EB;
+} */
+.features .navbar {
+    /* background: #26402B; */
+    width: 556.05px;
+    height: 80px;
+    border-radius: 48px;
+    /* padding: 0 20px; */
+}
+
+
+.features .intro {
+    transform: translateY(20%);
+}
+
+.features .intro h2 {
+    color: #26402B;
+    font-size: 3.466875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features .content {
+    background: #F2F5EB;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.features .content h3 {
+    color: #26402B;
+    font-size: 2.3925rem;
+    font-weight: 700;
+}
+
+.features .content p {
+    color: #26402B;
+    Width: 548.79px;
+    font-size: 1.06375rem;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
+.features .content .link-container {
+    background: #273F2B;
+    width: 277.23px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 28px;
+    font-size: 0.945625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .content .link-container a {
+    font-weight: 500;
+}
+
+.features .part-2 img {
+    max-width: 576px;
+    height: 432px;
+}
+/*---/------features-------/---*/
+
+/*---/------award-winning-------/---*/
+.award-winning{
+   background: #DFFFCB;
+   padding-bottom: 200px;
+}
+
+.award-winning h2{
+font-size: 3.418125rem;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+color: #26422B;
+width: 19ch;
+text-transform: uppercase;
+}
+
+.award-winning p{
+font-size: 1.075rem;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+/*---/------award-winning-------/---*/
+
+/*---/------above-footer-------/---*/
+.above-footer h2 {
+    color: #26402B;
+    font-size: 3.408125rem;
+    font-weight: 700;
+    width: 30ch;
+    text-transform: uppercase;
+}
+/*---/------above-footer-------/---*/
+
+/*---/------footer-------/---*/
+.footer {
+    background: #273F2B;
+    /* width: 1536px; */
+    color: #FFFFFF;
+    /* height: 796px; */
+    padding: 64px 0px 0px 0px;
+    border-radius: 8px;
+}
+
+.footer b {
+    color: #68EF3F;
+    font-size: 1.0725rem;
+}
+
+.footer .intro li:nth-child(2) {
+    width: 783.66px;
+    height: 80px;
+    left: 624.34px;
+    padding: 11.83px 11.78px 12.17px 24px;
+    border-radius: 40px;
+    background: #FFFFFF14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer .row:last-child a {
+    color: #FFFFFF80;
+    font-size: 0.921875rem;
+    font-weight: 500;
+}
+
+/*---/------footer-------/---*/
